@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Cat"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="37dp"
+        android:contentDescription="Cat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cat_img" />
+
+    <ImageView
+        android:id="@+id/Dog"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="Dog"
+        app:layout_constraintBottom_toBottomOf="@+id/Cat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toEndOf="@+id/Cat"
+        app:layout_constraintTop_toTopOf="@+id/Cat"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/dog_img" />
+
+    <ImageView
+        android:id="@+id/Turtle"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="37dp"
+        android:contentDescription="Turtle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Cat"
+        app:layout_constraintTop_toBottomOf="@+id/Cat"
+        app:srcCompat="@drawable/turtle_img" />
+
+    <ImageView
+        android:id="@+id/Chameleon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="Chameleon"
+        app:layout_constraintBottom_toBottomOf="@+id/Turtle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toEndOf="@+id/Turtle"
+        app:layout_constraintTop_toTopOf="@+id/Turtle"
+        app:srcCompat="@drawable/chameleon_img" />
+
+    <ImageView
+        android:id="@+id/Hamster"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="37dp"
+        android:contentDescription="Hamster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Turtle"
+        app:layout_constraintTop_toBottomOf="@+id/Turtle"
+        app:srcCompat="@drawable/hamster_img" />
+
+    <ImageView
+        android:id="@+id/Rabbit"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="Rabbit"
+        app:layout_constraintBottom_toBottomOf="@+id/Hamster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toEndOf="@+id/Hamster"
+        app:layout_constraintTop_toTopOf="@+id/Hamster"
+        app:srcCompat="@drawable/rabbit_img" />
+
+    <ImageView
+        android:id="@+id/Snake"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="37dp"
+        android:contentDescription="Snake"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Hamster"
+        app:layout_constraintTop_toBottomOf="@+id/Hamster"
+        app:srcCompat="@drawable/snake_img" />
+
+    <ImageView
+        android:id="@+id/Tarantula"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="432dp"
+        android:contentDescription="Tarantula"
+        app:layout_constraintBottom_toBottomOf="@+id/Snake"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toEndOf="@+id/Snake"
+        app:layout_constraintTop_toTopOf="@+id/Snake"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/tarantula_img" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
