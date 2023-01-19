@@ -1,5 +1,5 @@
 <h1>PetShop</h1>
-<p>PetShop is an android application that allows users to view information about different types of pets, including a cat, dog, turtle, chameleon, hamster, rabbit, snake, and tarantula. Each pet has its own bio and a name, and when clicked on, it will show a toast message and redirect to another activity where user can see more detailed information about the pet.</p>
+<p>PetShop is Java Windows application that allows users to view information about different types of pets, including a cat, dog, turtle, chameleon, hamster, rabbit, snake, and tarantula. Each pet has its own bio and a name, and when clicked on, it will show a toast message and redirect to another activity where user can see more detailed information about the pet.</p>
 <h2> Features</h2>
 <ul>
   <li>View different types of pets with their name and bio</li>
