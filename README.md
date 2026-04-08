@@ -1,5 +1,5 @@
 <h1>PetShop</h1>
-<p>PetShop is an Android application built with Java that allows users to view information about different types of pets, including a cat, dog, turtle, chameleon, hamster, rabbit, snake, and tarantula. Each pet has its own bio and a name, and when clicked on, it will show a toast message and redirect to another activity where user can see more detailed information about the pet.</p>
+<p>PetShop is an Android application built with Java that allows users to view information about different types of pets, including a cat, dog, turtle, chameleon, hamster, rabbit, snake, and tarantula. Each pet has its own bio and a name, and when clicked on, it will show a toast message and redirect to another activity where the user can see more detailed information about the pet.</p>
 <h2> Features</h2>
 <ul>
   <li>View different types of pets with their name and bio</li>
@@ -26,4 +26,4 @@ Please note that, as the code provided is not complete, some of the functionalit
 <h2> Contribution</h2>
 <p>If you want to contribute to this project, you can create a pull request or contact me on my email beslagicadin@gmail.com</p>
 <h2> Licensing</h2>
-<p>This project is under GNU GPL v3, you can use it for free, but you need to give credit to the original author.</p>
+<p>This software is all rights reserved. Use, copying, modification, or distribution requires prior written permission from the author. See the <a href="LICENSE">LICENSE</a> file for full terms or contact <a href="mailto:beslagicadin@gmail.com">beslagicadin@gmail.com</a> to request permission.</p>
